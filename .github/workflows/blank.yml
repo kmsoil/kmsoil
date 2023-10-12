@@ -6,7 +6,7 @@ on:
       - master
   workflow_dispatch:
   schedule:
-    - cron: '10,20,30,40,50 20-24 * * 2,3,5,6'
+    - cron: '10,30,50 21 * * 1,4,6,7'
 
 jobs:
   autogreen:
